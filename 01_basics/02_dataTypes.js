@@ -34,7 +34,7 @@ undefined => value is not assign ( type of undefined will be 'undefined' )
 symbol => unique */
 
 /* Find the typeof of DataTypes and Variables */
-// console.log(typeof name);
+console.log(typeof name);
 
 console.table([ typeof "John Doe", typeof 18, typeof true, typeof null ]);
 
