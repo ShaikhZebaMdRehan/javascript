@@ -11,7 +11,7 @@ accountCity = "Jaipur";
 accountEmail = "johndoe@gmail.com";
 accountPassword = "5";
 accountCity = "Bengaluru";
-let accountState; // Now add one more variable name state nut state will change that;s why we use let variable ( accountState will print undefined because we not assign a value of state )
+let accountState; // Now add one more variable name state nut state will change that;s why we use let variable ( accountState will print undefined because we not assign a value of state ) 
 
 console.log(accountId);
 
