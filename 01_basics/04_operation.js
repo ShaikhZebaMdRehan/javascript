@@ -46,16 +46,3 @@ gameCounter++; //Postfix
 ++gameCounter; //Prefix
 console.log(gameCounter);
  
-
-
-
-
-
-
-
-
-
-
-
-
-
