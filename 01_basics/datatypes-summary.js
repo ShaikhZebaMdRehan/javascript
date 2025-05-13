@@ -47,5 +47,3 @@ const myFunction = function() {
     console.log("Hello World");
 }
 console.log(typeof myFunction); // It is called Object Functions
-
-
