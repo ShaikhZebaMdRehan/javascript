@@ -1,7 +1,7 @@
-// Primitive DataTypes
+// Primitive DataTypes ( Primitive data types give a copy, not the original value. )
 /* 7 types:-  String, Number, Boolean, Null, Undefined, Bigint, Symbol */
 
-// Reference DataTypes ( Non-Primitve DataTypes )
+// Reference DataTypes ( Non-Primitive DataTypes ) ( Non-Primitive data types give a original value. )
 /* 3 types:-  Arrays, Objects, Functions */
 
 /* Q] JS is Dynamic Typed Language or Statically Typed Language?
@@ -47,3 +47,29 @@ const myFunction = function() {
     console.log("Hello World");
 }
 console.log(typeof myFunction); // It is called Object Functions
+
+/******************** STACK and HEAP ********************/
+// STACK (Primitive) and HEAP (Non-Primitive)
+
+let myYoutubename = "johndotcom";
+let anothername = myYoutubename;
+anothername = "ChaiaurCode";
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "john@google.com",
+    upi : "john@ybl",
+}
+
+console.log(userOne);
+
+
+let userTwo = userOne;
+console.log(userTwo);
+
+userTwo.email = "hello@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
