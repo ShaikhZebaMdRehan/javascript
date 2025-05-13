@@ -17,3 +17,5 @@ let accountState; // Now add one more variable name state nut state will change 
 
 /* print all the outputs in one command and output will come in TABULAR FORM */
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+console.log(accountEmail);
