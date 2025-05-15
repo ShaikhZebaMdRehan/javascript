@@ -8,6 +8,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 // One more way to declare string
 const gameName = new String('Tommy');
+console.log(gameName);
 
 // Access the key of gameName
 console.log(gameName[0]);
