@@ -48,9 +48,8 @@ const myFunction = function() {
 }
 console.log(typeof myFunction); // It is called Object Functions
 
-/******************** STACK and HEAP ********************/
+//+++++++++++++++++++++ STACK and HEAP +++++++++++++++++++++//
 // STACK (Primitive) and HEAP (Non-Primitive)
-
 let myYoutubename = "johndotcom";
 let anothername = myYoutubename;
 anothername = "ChaiaurCode";
@@ -64,7 +63,6 @@ let userOne = {
 }
 
 console.log(userOne);
-
 
 let userTwo = userOne;
 console.log(userTwo);
