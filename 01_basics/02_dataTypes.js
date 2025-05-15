@@ -1,20 +1,20 @@
 "use strict" // This command is treat all the JS code in newer version of JS
 
 /* This is an Arithmetic Operation */
-// alert (3 + 3); // We are using Nodejs not browser
+// alert (3 + 3); (We are using Nodejs not browser)
 
-// console.log(3 + 3) console.log("Hello"); // It will give error and it is also reduced the readability
+// console.log(3 + 3) console.log("Hello"); (It will give error and it is also reduced the readability)
 
 console.log(3 + 3); console.log("Hello"); // The error will go away after adding a semicolon
 
 // This is also not a good practice of writing a code
-// console.log( 3
-//     +
-// 3 );
+/* console.log( 3
+     +
+ 3 ); */
 
 // console.log("Hello World");
 
-// DataTypes
+//+++++++++++++++++++ DataTypes +++++++++++++++++++//
 
 let name = "John Doe"; //string datatype
 let age = 18; //number datatype
@@ -24,7 +24,7 @@ let state;
 
 console.table([name, age, isLoggedIn, city, state]);
 
-// Premitive Datatypes
+//+++++++++++++++++++  Premitive Datatypes +++++++++++++++++++//
 /* string = " "
 number => 2 to power 53
 boolean => true / false
