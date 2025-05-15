@@ -3,7 +3,7 @@ let accountEmail = "john@gmail.com";
 var accountPassword = "45321";
 accountCity = "Jaipur";
 
-/* accountId = 2; */ // Value will not change br=ecause of const variable and it will give error
+// accountId = 2; ( Value will not change br=ecause of const variable and it will give error )
 
 console.log(accountId);
 
