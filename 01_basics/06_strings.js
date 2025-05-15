@@ -53,7 +53,7 @@ console.log(url.includes("hello-world"));
 const studentName = "hitler-killer"; // This will split in Array formate
 console.log(studentName.split('-'));
 
-/*************** Methods Name ***************/
+//+++++++++++++++++++++ Methods Name +++++++++++++++++++++//
 /* anchor: ƒ anchor()
 at: ƒ at()
 big: ƒ big()
