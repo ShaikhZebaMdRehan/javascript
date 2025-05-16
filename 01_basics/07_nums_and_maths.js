@@ -38,8 +38,13 @@ console.log(Math.abs(-4)) // If we give the positive value then it will give the
 
 // round means round off
 console.log(Math.round(4.6));
-console.log(Math.ceil(4.6)); // ceil means bigger number
-console.log(Math.floor(4.8)); // floor means lower number
+
+// Ceil and Floor
+console.log(Math.ceil(4.6)); // In ceiling always the first number will get incremented.
+console.log(Math.ceil(17.22));
+
+console.log(Math.floor(4.8)); // In floor only the first number will be getting printed.
+console.log(Math.floor(17225.10));
 
 // Min and Max
 console.log(Math.min(5, 6, 8, 2, 7, 9)); // It will give minimum value
