@@ -42,7 +42,7 @@ console.log(num1, num2, num3);
 // Postfix & Prefix
 
 let gameCounter = 100;
-gameCounter++; //Postfix
-++gameCounter; //Prefix
+gameCounter++; //Postfix (Here first it prints the output , then its calculation is done.)
+++gameCounter; //Prefix (Here first the calculation is done , then it prints the output.)
 console.log(gameCounter);
  
