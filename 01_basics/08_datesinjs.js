@@ -18,7 +18,7 @@ console.log(myDate.toTimeString());
 console.log(typeof myDate); // Date is object
 
 // Let's check the Dates by passing the value inside the method
-let myCreatedDate = new Date(2023, 0, 23) // In Dates 0 meand January beacuse in JS always start from 0
+let myCreatedDate = new Date(2023, 0, 23) // In Dates 0 means January beacuse in JS always start from 0
 console.log(myCreatedDate.toDateString());
 console.log(myCreatedDate.toLocaleString());
 
@@ -38,7 +38,7 @@ let myTimeStamp = Date.now();
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime()); // Find out the millisecond from Date
 console.log(Date.now()/1000); // Convert into Seconds (But in this we will get the numbers into decimal, So we use Math Formula)
-console.log(Math.floor(Date.now()/1000)); // Always juse (Math.floor or Math.round)
+console.log(Math.floor(Date.now()/1000)); // Always use (Math.floor or Math.round)
 
 
 //+++++++++++++++++++++ Some More Methods +++++++++++++++++++++//
@@ -54,11 +54,7 @@ console.log(newDate.getMonth());
 console.log(newDate.getMonth() +1);
 console.log(newDate.getSeconds());
 console.log(newDate.getTime());
-console.log(newDate.getTimezoneOffset());
-console.log(newDate.getUTCDate());
-console.log(newDate.getUTCDay());
 
-// Most
-// newDate.toLocaleString('default, {
-//     weekday: "long";
-// }')
+newDate.toLocaleString('default', {
+    weekday: "long",
+});
