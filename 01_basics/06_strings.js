@@ -31,8 +31,8 @@ const newString1 = fName.substring(-2, 5);
 console.log(newString1);
 
 // Slice Method
-const anotehrString = fName.slice(-10, 4); // {total number of length(fName = "Tom-Jerry")- slice methods first value = will be replaced by slice methods furst value}
-console.log(anotehrString);
+const anotherString = fName.slice(-10, 4); // {total number of length(fName = "Tom-Jerry")- slice methods first value = will be replaced by slice methods first value}
+console.log(anotherString);
 
 // Trim Method, The trim() method removes whitespace from both sides of a string. The trim() method does not change the original string.
 const newStringOne = "     John Doe     ";
