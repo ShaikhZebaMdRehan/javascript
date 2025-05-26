@@ -42,7 +42,7 @@ let myObj = {
     age : 6,
 }
 
-// Rxample
+// Example
 const myFunction = function() {
     console.log("Hello World");
 }
@@ -50,12 +50,12 @@ console.log(typeof myFunction); // It is called Object Functions
 
 //+++++++++++++++++++++ STACK and HEAP +++++++++++++++++++++//
 // STACK (Primitive) and HEAP (Non-Primitive)
-let myYoutubename = "johndotcom";
-let anothername = myYoutubename;
-anothername = "ChaiaurCode";
+let myYouTubeName = "johndotcom";
+let anotherName = myYouTubeName;
+anotherName = "ChaiaurCode";
 
-console.log(myYoutubename);
-console.log(anothername);
+console.log(myYouTubeName);
+console.log(anotherName);
 
 let userOne = {
     email : "john@google.com",
