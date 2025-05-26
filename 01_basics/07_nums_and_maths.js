@@ -33,8 +33,8 @@ valueOf: ƒ valueOf() */
 console.log(Math);
 
 // abs means Absolute
-console.log(Math.abs(4)); // In this we will give the value negative then it convert the (negative value to positive value).
-console.log(Math.abs(-4)) // If we give the positive value then it will give the output posivite only never convert the (positive value into negative value)
+console.log(Math.abs(4)); // If we give the positive value then it will give the output posivite only never convert the (positive value into negative value)
+console.log(Math.abs(-4)) // In this we will give the value negative then it convert the (negative value to positive value).
 
 // round means round off
 console.log(Math.round(4.6));
