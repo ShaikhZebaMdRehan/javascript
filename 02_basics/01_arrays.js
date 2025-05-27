@@ -1,4 +1,4 @@
-/* The Array object in programming (like in JavaScript),x lets you store many items together using one variable name. Just like in other programming languages, it's a way to keep a list of things (like numbers or names) in one place.
+/* The Array object in programming (like in JavaScript), lets you store many items together using one variable name. Just like in other programming languages, it's a way to keep a list of things (like numbers or names) in one place.
 
 It contains a mix of different data types.
 
@@ -38,17 +38,17 @@ console.log(myArr2.indexOf(3));
 console.log(myArr2.indexOf(12));
 
 /* The join() method of Array instances creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator. */
-const newArr = myArr2.join()
-console.log(myArr2);
-console.log(typeof myArr2);
+const myArr3 = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+console.log(myArr3);
+console.log(typeof myArr3);
 
+const newArr = myArr3.join()
 console.log(newArr);
 console.log(typeof newArr);
 
 // Slice, Splice
 const myNewArr = [1, 2, 3, 4, 5]
 console.log("A ", myNewArr);
-
 const myn1 = myNewArr.slice(1, 3);
 console.log(myn1);
 
