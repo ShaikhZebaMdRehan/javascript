@@ -24,7 +24,7 @@ let state;
 
 console.table([name, age, isLoggedIn, city, state]);
 
-//+++++++++++++++++++  Premitive Datatypes +++++++++++++++++++//
+//+++++++++++++++++++ Premitive Datatypes +++++++++++++++++++//
 /* string = " "
 number => 2 to power 53
 boolean => true / false
