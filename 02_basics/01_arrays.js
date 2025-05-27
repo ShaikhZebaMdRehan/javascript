@@ -12,6 +12,8 @@ A deep copy of an object is a copy whose properties do not share the same refere
 
 //+++++++++++++++++++ Basics of Arrays +++++++++++++++++++//
 const myArr = [0, 1, 2, 3, 4];
+console.log(myArr);
+
 console.log(myArr[2]);
 
 const myHeros = ["Rehan", "Gayas", "Hannan"];
