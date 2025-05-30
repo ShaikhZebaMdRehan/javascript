@@ -28,10 +28,16 @@ const myArr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(myArr2);
 
 myArr2.push(11);
+console.log(myArr2);
+
 myArr2.pop();
+console.log(myArr2);
 
 myArr2.unshift(12);
+console.log(myArr2);
+
 myArr2.shift();
+console.log(myArr2);
 
 console.log(myArr2.includes(9));
 console.log(myArr2.includes(12));
