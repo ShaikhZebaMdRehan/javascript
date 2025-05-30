@@ -1,9 +1,8 @@
 const marvel_heros = ["Thor", "Ironman", "Spiderman"];
 const dc_heros = ["Superman", "Flash", "Batman"];
 
-marvel_heros.push(dc_heros); // This will merge both the Arrays, But this is not a good method 
-
-console.log(marvel_heros);
+marvel_heros.push(dc_heros); // This will merge both the Arrays, But this is not a good method
+console.log(dc_heros)
 console.log(marvel_heros[3][1]);
 
 const allHeros = marvel_heros.concat(dc_heros);
@@ -17,8 +16,16 @@ const anotherArray = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
 const realAnotherArray = anotherArray.flat(Infinity);
 console.log(realAnotherArray);
 
-console.log(Array.isArray("John"));
-console.log(Array.from("John")); // Convert into Array
+const newUser = "John Doe";
+console.log(Array.isArray(newUser));
+
+const newUser1 = ["apple", "mango"]
+console.log(Array.isArray(newUser1));
+
+// Convert into Array
+const userName = "John"
+console.log(Array.from("John"));
+
 console.log(Array.from({name: "John"})); // Interesting
 
 let score1 = 100;
