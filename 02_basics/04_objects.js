@@ -16,7 +16,7 @@ const regularUser = {
         }
     } 
 }
-
+console.log(regularUser);
 console.log(regularUser.fullName.userName.firstName);
 
 const obj1 = { 1: "a", 2: "b", 3: "c"};
