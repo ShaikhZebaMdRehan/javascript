@@ -27,21 +27,27 @@ console.log(myArr1[2]);
 const myArr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(myArr2);
 
+/* PUSH in ARRAY: It adds the element to the end of the array */
 myArr2.push(11);
 console.log(myArr2);
 
+/* POP in ARRAY: It removes the element from the end of the array */
 myArr2.pop();
 console.log(myArr2);
 
+/* UNSHIFT in ARRAY: It adds the element from the start of the array */
 myArr2.unshift(12);
 console.log(myArr2);
 
+/* SHIFT in ARRAY: It removes the element from the start of the array */
 myArr2.shift();
 console.log(myArr2);
 
+/* INCLUDES in ARRAY: This method is used whenever we have to check the current element, i.e., includes(7) means 7 is present in the array element or not. */
 console.log(myArr2.includes(9));
 console.log(myArr2.includes(12));
 
+/* indexOf in ARRAY: It is used to find the index of the array element. */
 console.log(myArr2.indexOf(3));
 console.log(myArr2.indexOf(12));
 
@@ -54,12 +60,13 @@ const newArr = myArr3.join()
 console.log(newArr);
 console.log(typeof newArr);
 
-// Slice, Splice
+/* Slice in ARRAY: Here, it takes the starting index number but does not consider the second index number i.e, slice(1,4) -> here it will start from index number 1 and then will end at index number 3 and if the starting index number is greater than the second one, then it will provide an empty array. */
 const myNewArr = [1, 2, 3, 4, 5]
 console.log("A ", myNewArr);
 const myn1 = myNewArr.slice(1, 3);
 console.log(myn1);
 
+/* splice in ARRAY: Here, it considers the starting index number and also considers the second index number. i.e splice(2,4) here the array index will start from 2 and will take till 4 index numbers */
 console.log("B ", myNewArr);
 const myn2 = myNewArr.splice(1, 3);
 console.log(myn2);
