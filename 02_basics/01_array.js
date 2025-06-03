@@ -51,7 +51,7 @@ console.log(myArr2.includes(12));
 console.log(myArr2.indexOf(3));
 console.log(myArr2.indexOf(12));
 
-/* The join() method of Array instances creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator. */
+/* In join, it converts the array into a string, and also if we want to add some element in front of every array element, we can write it as join(5). */
 const myArr3 = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 console.log(myArr3);
 console.log(typeof myArr3);
