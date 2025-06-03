@@ -19,9 +19,18 @@ addTwoNumbers(4, null);
 
 function addTwoNumbers(number1, number2) {
     let result = number1 + number2;
-    // return result
+    return result
+}
+console.log(addTwoNumbers(4,6));
+
+function addTwoNumbers(number1, number2) {
     return number1 + number2; // This method reduce the number of codes
-    // console.log("John"); After return in function koi bhi input nahi leta hai
+}
+console.log(addTwoNumbers(4,6));
+
+function addTwoNumbers(number1, number2) {
+    return number1 + number2; // This method reduce the number of codes
+    console.log("John"); // After return in function koi bhi input nahi leta hai
 }
 
 const result = addTwoNumbers(4, 6);
