@@ -49,6 +49,7 @@ jsUser1.greetings = function() {
     console.log("Hello JS User");
 }
 
+jsUser1.greetings();
 console.log(jsUser1.greetings); // Funtion nahi print huwa just function ka reference aya
 console.log(jsUser1.greetings());
 
