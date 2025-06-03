@@ -40,8 +40,13 @@ function loginUserMessage(username) {
     /* Both the if statement output will be same undefined */
     if(username === undefined) {
         console.log("Please enter your username");
-        // return
+        return
     }
+    return `${username} just logged in`;
+}
+
+function loginUserMessage(username) {
+    /* Both the if statement output will be same undefined */
     if(!username) {
         console.log("Please enter your username");
         return
