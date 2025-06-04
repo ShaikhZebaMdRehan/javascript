@@ -64,3 +64,43 @@ function loggedInUserMessage(username = "Sam") {
 
 console.log(loggedInUserMessage());
 console.log(loggedInUserMessage("John Doe")); // This will over write the name
+
+/* Add number of items price in cart */
+// Rest Operator is define by ... and it is also called Spread operator but when we called rest and when we called spread opeartor on the basis of use 
+function calculateCartPrice(...num1) {
+    return num1;
+}
+console.log(calculateCartPrice(200, 400, 500, 2000));
+
+function calculateCartPrice1(val1, val2, ...number1) {
+    return number1;
+}
+console.log(calculateCartPrice1(200, 400, 500, 2000));
+
+// How to pass the object through function and how to use object in function
+const user = {
+    userName: "John",
+    prices: 299, // when we give wrong key vale in function doller then it will give undefined
+}
+
+function handleObject(anyobject) {
+    console.log(`Username is ${anyobject.userName} and Price is ${anyobject.price}`);
+}
+
+handleObject(user);
+
+// Second and short method to pass the object in function
+handleObject({
+    userName: "Sam",
+    price: 399,
+})
+
+// Pass the Array through function
+const myNewArray = [200, 400, 100, 600];
+function returnSecondValue(getArray) {
+    return getArray[1];
+}
+console.log(returnSecondValue(myNewArray));
+
+// Second and short method to pass the Array in function
+console.log(returnSecondValue([200, 400, 100, 600]));
