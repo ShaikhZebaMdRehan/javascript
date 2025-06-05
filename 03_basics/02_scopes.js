@@ -8,14 +8,14 @@ console.log(c);
 
 // When we use the {} curly braces in functions and if else conditions then it is called scope of that program
 
-/* If we use the if else and functions it is block scope And if we code outside the scope it is called global scope and what ever we write the code in global it will be available in the block scope but when we write the code in the scope it will not available in the global scope */
+/* If we use the if else and functions it is called block scope And if we code outside the scope it is called global scope and what ever we write the code in global it will be available in the block scope but when we write the code in the scope it will not available in the global scope */
 
 var f = 300; // If decalre the var outside the block scope then too it will give an output of block scope only
 
 if (true) {
     let d = 40;
     const e = 50;
-    var f = 60; // If we decalre var or not ( f = 60 ) like this still give an output that's why we avoid var
+    var f = 60; // If we decalre var or ( f = 60 ) like this still give an output that's why we avoid var
 }
 
 // When we take block scope and define the value in block scope then let and const will give not defined
