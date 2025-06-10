@@ -32,3 +32,60 @@ if (true) {
     console.log("Inner:", g);
 }
 console.log(g);
+
+//+++++++++++++++++++ Nested Scope +++++++++++++++++++//
+function one() {
+    const userName = "John";
+
+    function two() {
+        const website = "youtube";
+        console.log(userName);
+    }
+    // console.log(website); /* Always Parent will not access the Child value but Child will access the Parent value ( If we parent will access the child value then it will give error ) */
+    
+    two()
+}
+
+one()
+
+if (true) {
+    const username = "John";
+
+    if (username === "John") {
+        const website = "youtube";
+        console.log(username + " " + website);
+    }
+
+    // console.log(webiste); This will give error because of we are accessing the child value in Parent
+}
+
+// console.log(username); This will also give error because of we are accessing the Parent value after the block scope
+
+
+//+++++++++++++++++++ Interesting +++++++++++++++++++//
+// This is a function
+function addOne(num) {
+    return num + 1;
+}
+addOne(5);
+
+// This is also called function but in expression
+const addTwo = function(num) {
+    return num + 2;
+}
+addTwo(5);
+
+// This is also a type of decalring a function
+addOne(5);
+console.log(addOne(5)); // check
+
+function addOne(num) {
+    return num + 1;
+}
+
+// This is also type of decalring a function but in expression
+// When we decalre the function ny holding in variable it is called hosting
+addTwo1(5); // It will give error because we had decalre a function in variable
+const addTwo1 = function(num) {
+    return num + 2;
+}
