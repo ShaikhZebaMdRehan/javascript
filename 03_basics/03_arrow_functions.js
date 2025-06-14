@@ -17,13 +17,13 @@ user.welcomeMessage();
 console.log(this); // This will give empty object because in nodejs it is empty object and in browser it is global object output will be window
 
 
-/* If we only console the this it will give many output */
+/* If we only console the "this" it will give many output */
 function chai() {
     console.log(this);
 }
 chai();
 
-/* This will give an output undefined because we don't have an access of using a this in function. this will use with method only */
+/* This will give an output undefined because we don't have an access of using a "this" in function. "this" will use with method only */
 function chaiOne() {
     let userName = "John Doe";
     console.log(this.userName);
@@ -38,7 +38,7 @@ const chaiTwo = function() {
 chaiTwo();
 
 //+++++++++++++++++++ Arrow Functions +++++++++++++++++++//
-/* This will give an output undefined because we don't have an access of using a this in Arrow Functions. this will use with method only */
+/* It will give an output undefined because we don't have an access of using a "this" in Arrow Functions. "this" will use with method only */
 const chaiThree = () => {
     let userName2 = "Sunny";
     console.log(this.userName2);
@@ -55,7 +55,7 @@ console.log(addTwo(3,4));
 const add2 = (num3, num4) => num3 + num4;
 console.log(add2(3,4));
 
-// In implicit returned, we also give the value in parenthesis and when we sue curly braces then we use return keyword and when we use parenthesis then we don't use return leyword
+// In implicit returned, we also give the value in parenthesis and when we use curly braces then we use return keyword and when we use parenthesis then we don't use return keyword
 const add3 = (num3, num4) => (num3 + num4);
 console.log(add3(3,4));
 
